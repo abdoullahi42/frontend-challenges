@@ -41,7 +41,7 @@ img {
   height: 320px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  background-color: hsl(277, 64%, 61%);
+  background-color: rgba(170, 92, 219, 0.939);
 }
 .header-tex-box {
   display: inline-block;
