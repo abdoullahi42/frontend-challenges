@@ -116,4 +116,12 @@ button,
   .accessPriceADay {
     margin-bottom: 0;
   }
+
+  .pricingSec {
+    border-bottom-left-radius: 5px;
+  }
+
+  .whatSetUsApartSec {
+    padding-bottom: 48px;
+  }
 }
