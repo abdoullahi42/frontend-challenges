@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px 32px;
+  font-family: "Poppins", sans-serif;
+}
+/*  Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
+ Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+*/
+
+h1 {
+  font-size: 17px;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+h1,
+h2,
+strong {
+  color: hsl(234, 12%, 34%);
+}
+
+p {
+  font-size: 15px;
+  color: hsl(229, 6%, 66%);
+}
+strong {
+  display: block;
+  margin-bottom: 20px;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+.firstPara {
+  text-align: center;
+}
+.teamBuilder,
+.karma,
+.supervisorSec,
+.calculatorSec {
+  box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+.supervisorSec {
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+.icon {
+  text-align: right;
+  padding: 12px;
+}
+.teamBuilder {
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+.karma {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.calculatorSec {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+/* Media queries */
+
+@media (min-width: 800px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+  }
+  article {
+    display: flex;
+    gap: 20px;
+
+    /* gap: 20px;
+    height: 300px;
+    justify-content: center;
+    padding: 10px; */
+  }
+  .teamBuilderkarmaSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .calculatorSec,
+  .supervisorSec {
+    align-self: start;
+  }
+}
