@@ -1,0 +1,99 @@
+/* Reset styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*colors*/
+:root {
+  --primary-color: rgb(103, 75, 175);
+  --secondary-color: hsl(300, 69%, 71%);
+}
+
+/* Global styles for the body */
+body {
+  background-color: var(--primary-color);
+  background-image: url(images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Styles for header section */
+header {
+  margin-bottom: 50px;
+}
+
+/* Styles for headings and paragraphs */
+h1,
+p {
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Open sans", sans-serif;
+}
+
+/* Styles for buttons */
+button {
+  padding: 10px 62px;
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0px 11px 4px 0px rgba(0, 0, 0, 0.27);
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+/* Styles for logo and mockups */
+.logo {
+  width: 120px;
+  margin: 25px 0 50px 0;
+}
+
+.mockups {
+  width: 100%;
+  max-width: 500px; /* Added "px" unit */
+  margin-bottom: 50px;
+}
+
+/* Styles for the parent button container */
+.parentBtn {
+  text-align: center;
+  margin: 25px 0 38px;
+}
+
+/* Styles for social media icons */
+.social-Media-pages {
+  text-align: center;
+}
+
+.social-Media-icons {
+  border-radius: 50px;
+  border: solid 1px;
+  color: white;
+  padding: 5px;
+  width: 15px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.social-Media-icons:hover {
+  color: var(--secondary-color);
+}
