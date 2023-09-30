@@ -148,4 +148,9 @@ button:hover {
   .social-Media-pages {
     margin: 0 20px;
   }
+  /*button*/
+  button {
+    padding: 15px 52px;
+    box-shadow: 0px 11px 10px 0px rgba(0, 0, 0, 0.27);
+  }
 }
